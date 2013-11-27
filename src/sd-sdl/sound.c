@@ -21,7 +21,7 @@
 #include "driveclick.h"
 #include "sounddep/sound.h"
 #include "threaddep/thread.h"
-#include <SDL_audio.h>
+#include <SDL.h>
 
 int have_sound = 0;
 static int statuscnt;
